@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title>Text Summarizer</title>
+<style>
+body {
+  background-image: url("static/images/back.jpeg");
+}
+
+h1 {
+  font-family: Purisa; 
+
+font-style: oblique; 
+font-variant: normal; 
+font-weight: 1000; 
+;
+}
+
+h3{
+	font-family: Purisa; 
+}
+
+h4{
+	font-family: Purisa; 
+}
+h5{
+	font-family: Purisa; 
+}
+button{
+	font-family: Purisa; 
+}
+
+</style>
+</head>
+<body>
+<p><h1 align="center"  ><b>This is text summarizer.Just paste link of any wikipedia page,it will generate summary of it....</b></h1></p>
+<form method="POST">
+    <h3 >enter link here</h3>
+    <input name ="u">
+    <button type="submit" name="Get summary">Get summary</button>
+</form>    
+<br>   
+<p><h4 >Summary</h4>
+<h5>{{ prediction_text }}</h5>
+</p>
+
+</body>
+</html>
+
