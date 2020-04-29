@@ -1,0 +1,4 @@
+This folder contains all saved models.
+saved_RFC===>saved Random Forest Classifier
+saved_LR===>saved Logistic Regression
+saved_Nb===>saved Naive Bayes(Multinomial Naive Bayes)
